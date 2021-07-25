@@ -1,0 +1,236 @@
+:root {
+    --background-color: rgb(32, 32, 32);
+    --text-color: #fff;
+    --link-border-color: rgb(134, 134, 134);
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
+
+body {
+    font-family: 'Flamenco', cursive;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-weight: 300;
+    display: block;
+    position: relative;
+}
+
+/* default styling for tags */
+.default-tag-structure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--text-color);
+    margin-bottom: 200px;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+/* header styling */
+.link-list {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.link-list li {
+    border-radius: 3px;
+    padding: 5px 10px 2px 10px;
+    border-top: 2px solid var(--link-border-color);
+    border-left: 1px solid var(--link-border-color);
+    border-bottom: 1px solid var(--link-border-color);
+    border-right: 1px solid var(--link-border-color);
+    margin: 15px;
+    text-align: center;
+    box-shadow: 1px 1px 5px #000;
+}
+
+.link-list li a {
+    color: var(--link-border-color);
+    padding: 0px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+/* header image class */
+.headShot {
+    height: 300px;
+    width: auto;
+}
+
+/* End header styling */
+
+/* Main styling  */
+
+main.default-tag-structure {
+    margin-bottom: 0px;
+}
+
+section.default-tag-structure {
+    border-bottom: none;
+}
+
+p.article-text {
+    margin: 50px 50px 0px 50px;
+    font-size: 1.3rem;
+}
+
+footer.default-tag-structure {
+    margin: 50px 0px 50px 0px;
+    border-bottom: none;
+}
+
+.project-images-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 610px;
+
+}
+
+.project-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.project-images {
+    height: auto;
+    width: 550px;
+    box-shadow: 0px 30px 30px #000;
+    margin: 50px 30px 0px 30px;
+}
+
+.project-title {
+    font-size: 1.8rem;
+    border-bottom: 1px solid var(--text-color);
+    margin-bottom: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+li.default-tag-structure {
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+.contact-icons-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    padding: 100px 0px 100px 0px;
+}
+
+.icons {
+    width: 50px;
+    height: auto;
+}
+
+#contact-me.default-tag-structure {
+    margin-bottom: 0px;
+}
+
+/* end main styling */
+
+/* text elements */
+
+h1 {
+    font-size: 2.5rem;
+    padding: 0px 4px 0px 4px;
+    border-bottom: 1px solid var(--text-color);
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-style: italic;
+    margin-left: 10px;
+    border-bottom: 1px solid var(--text-color);
+}
+
+p {
+    text-align: center;
+    margin: 10px 50px 30px 50px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    border-bottom: 1px solid var(--text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+footer.main-section {
+    margin-bottom: 0px;
+    border: none;
+}
+
+/* end text styling */
+
+/* hover behavior */
+
+/* nav bar */
+.link-list li:hover {
+    box-shadow: 0px 0px 3px rgb(199, 199, 199);
+}
+
+/* images */
+.project-images:hover {
+    border: 1px solid var(--text-color);
+    box-shadow: 10px 35px 35px #000;
+}
+
+/* contact icons */
+.icons:hover {
+    box-shadow: 0px 0px 3px rgb(199, 199, 199);
+}
+/* end hover behavior */
+
+/* Media Queries */
+@media screen and (max-width: 470px) {
+    .link-list {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .project-images-container {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .project-images {
+        width: 270px;
+        margin: 50px 5px 20px 5px;
+    }
+
+    .project-images-container {
+        flex-direction: column;
+        width: 276px;
+    }
+
+    .project-images-container .project-images {
+        width: 270px;
+    }
+
+    .contact-icons-list {
+        width: 230px;
+    }
+    .icons {
+        width: 40px;
+        margin: 10px;
+    }
+}

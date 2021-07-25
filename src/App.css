@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
+
+body {
+  font-family: 'Flamenco',  cursive;
+}
+
 .App {
   text-align: center;
 }
