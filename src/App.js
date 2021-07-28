@@ -1,9 +1,8 @@
-// import logo from './logo.svg';
 import './App.css';
 import Jumbotron from "./components/jumbotron.js";
-import MyWork from './components/myWork';
-import AboutMe from './components/aboutMe';
-import ContactMe from './components/contactMe';
+import MyWork from './components/myWork.js';
+import AboutMe from './components/aboutMe.js';
+import ContactMe from './components/contactMe.js';
 
 
 
