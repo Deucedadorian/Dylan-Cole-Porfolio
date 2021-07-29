@@ -1,20 +1,6 @@
-import './App.css';
-import Jumbotron from "./components/jumbotron.js";
-import MyWork from './components/myWork.js';
-import AboutMe from './components/aboutMe.js';
-import ContactMe from './components/contactMe.js';
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-
-
-function App() {
-  return (
-    <div>
-      <Jumbotron />
-      <AboutMe />
-      <MyWork />
-      <ContactMe />
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;

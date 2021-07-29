@@ -1,10 +1,10 @@
 import React from 'react';
-import msgIcon from '../assets/images/message.png';
-import gitIcon from '../assets/images/github.png';
-import phoneIcon from '../assets/images/telephone.png';
-import twitIcon from '../assets/images/twitter.png';
-import YTIcon from '../assets/images/youtube.png';
-import linkedIcon from '../assets/images/linkedin.png';
+import msgIcon from '../../assets/images/message.png';
+import gitIcon from '../../assets/images/github.png';
+import phoneIcon from '../../assets/images/telephone.png';
+import twitIcon from '../../assets/images/twitter.png';
+import YTIcon from '../../assets/images/youtube.png';
+import linkedIcon from '../../assets/images/linkedin.png';
 
 export default function ContactMe() {
     return (
