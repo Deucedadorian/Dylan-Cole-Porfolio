@@ -198,6 +198,24 @@ footer.main-section {
 }
 /* end hover behavior */
 
+#dl-btn {
+    margin-top: 40px;
+    padding: 6px;
+}
+
+.resume-list {
+    font-size: 1.5rem;
+}
+
+.resume-list h3 {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+.resume-list h3 #first {
+    margin-top: 0%;    
+}
+
 /* Media Queries */
 @media screen and (max-width: 470px) {
     .link-list {

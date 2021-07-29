@@ -1,12 +1,10 @@
 import React from 'react';
-import '../assets/css/reset.css';
-import '../assets/css/style.css';
-import reciflixor from '../assets/images/unh-bootcamp-projects.github.io_project-1-group-a_.png';
-import blogSite from '../assets/images/mysterious-lowlands-86271.herokuapp.com_login.png';
-import weatherApp from '../assets/images/deucedadorian.github.io_06-Server-Side-APIs-Weather-Dashboard_.png';
-import scheduler from '../assets/images/deucedadorian.github.io_05-Third-Party-APIs-Work-Day-Scheduler_.png';
-import NoteTaker from '../assets/images/sheltered-cliffs-13242.herokuapp.com_.png';
-import swosaat from '../assets/images/swosaat.png';
+import reciflixor from '../../assets/images/unh-bootcamp-projects.github.io_project-1-group-a_.png';
+import blogSite from '../../assets/images/mysterious-lowlands-86271.herokuapp.com_login.png';
+import weatherApp from '../../assets/images/deucedadorian.github.io_06-Server-Side-APIs-Weather-Dashboard_.png';
+import scheduler from '../../assets/images/deucedadorian.github.io_05-Third-Party-APIs-Work-Day-Scheduler_.png';
+import NoteTaker from '../../assets/images/sheltered-cliffs-13242.herokuapp.com_.png';
+import swosaat from '../../assets/images/swosaat.png';
 
 export default function MyWork() {
     return (
