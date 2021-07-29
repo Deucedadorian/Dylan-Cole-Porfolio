@@ -6,12 +6,22 @@ import blogSite from '../assets/images/mysterious-lowlands-86271.herokuapp.com_l
 import weatherApp from '../assets/images/deucedadorian.github.io_06-Server-Side-APIs-Weather-Dashboard_.png';
 import scheduler from '../assets/images/deucedadorian.github.io_05-Third-Party-APIs-Work-Day-Scheduler_.png';
 import NoteTaker from '../assets/images/sheltered-cliffs-13242.herokuapp.com_.png';
+import swosaat from '../assets/images/swosaat.png';
 
 export default function MyWork() {
     return (
         <div>
             <section id="my-work" className="default-tag-structure">
                 <h1>My Work</h1>
+                <a href="https://evening-fortress-06751.herokuapp.com/" target="_blank" rel="noreferrer">
+                <img className="project-images" src={swosaat}
+                alt="SWOSAAT header" /></a>
+                <section className="project-card">
+                    <h2 className="project-title">SWOSAAT</h2>
+                    <a href="https://github.com/Deucedadorian/Subscription-Tracker" target="_blank" rel="noreferrer">
+                        <h3>Github</h3>
+                    </a>
+                </section>
                 <a href="https://unh-bootcamp-projects.github.io/project-1-group-a/" target="_blank" rel="noreferrer">
                     <img className="project-images" src={reciflixor}
                         alt="Reciflixor site." /></a>
