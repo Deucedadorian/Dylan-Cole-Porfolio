@@ -217,7 +217,7 @@ footer.main-section {
 }
 
 /* Media Queries */
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 530px) {
     .link-list {
         flex-direction: column;
     }
