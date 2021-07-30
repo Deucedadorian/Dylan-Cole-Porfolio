@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Dylan-Cole-Porfolio/static/css/main.f21be875.chunk.css",
-    "main.js": "/Dylan-Cole-Porfolio/static/js/main.d7658e73.chunk.js",
-    "main.js.map": "/Dylan-Cole-Porfolio/static/js/main.d7658e73.chunk.js.map",
-    "runtime-main.js": "/Dylan-Cole-Porfolio/static/js/runtime-main.c1fd89f4.js",
-    "runtime-main.js.map": "/Dylan-Cole-Porfolio/static/js/runtime-main.c1fd89f4.js.map",
-    "static/js/2.8fc73956.chunk.js": "/Dylan-Cole-Porfolio/static/js/2.8fc73956.chunk.js",
-    "static/js/2.8fc73956.chunk.js.map": "/Dylan-Cole-Porfolio/static/js/2.8fc73956.chunk.js.map",
-    "static/js/3.08fcdd45.chunk.js": "/Dylan-Cole-Porfolio/static/js/3.08fcdd45.chunk.js",
-    "static/js/3.08fcdd45.chunk.js.map": "/Dylan-Cole-Porfolio/static/js/3.08fcdd45.chunk.js.map",
+    "main.js": "/Dylan-Cole-Porfolio/static/js/main.67afdf3b.chunk.js",
+    "main.js.map": "/Dylan-Cole-Porfolio/static/js/main.67afdf3b.chunk.js.map",
+    "runtime-main.js": "/Dylan-Cole-Porfolio/static/js/runtime-main.e319927d.js",
+    "runtime-main.js.map": "/Dylan-Cole-Porfolio/static/js/runtime-main.e319927d.js.map",
+    "static/js/2.c168c27e.chunk.js": "/Dylan-Cole-Porfolio/static/js/2.c168c27e.chunk.js",
+    "static/js/2.c168c27e.chunk.js.map": "/Dylan-Cole-Porfolio/static/js/2.c168c27e.chunk.js.map",
+    "static/js/3.fb1c6c6e.chunk.js": "/Dylan-Cole-Porfolio/static/js/3.fb1c6c6e.chunk.js",
+    "static/js/3.fb1c6c6e.chunk.js.map": "/Dylan-Cole-Porfolio/static/js/3.fb1c6c6e.chunk.js.map",
     "index.html": "/Dylan-Cole-Porfolio/index.html",
     "static/css/main.f21be875.chunk.css.map": "/Dylan-Cole-Porfolio/static/css/main.f21be875.chunk.css.map",
-    "static/js/2.8fc73956.chunk.js.LICENSE.txt": "/Dylan-Cole-Porfolio/static/js/2.8fc73956.chunk.js.LICENSE.txt",
+    "static/js/2.c168c27e.chunk.js.LICENSE.txt": "/Dylan-Cole-Porfolio/static/js/2.c168c27e.chunk.js.LICENSE.txt",
     "static/media/deucedadorian.github.io_05-Third-Party-APIs-Work-Day-Scheduler_.63dbd6ef.png": "/Dylan-Cole-Porfolio/static/media/deucedadorian.github.io_05-Third-Party-APIs-Work-Day-Scheduler_.63dbd6ef.png",
     "static/media/deucedadorian.github.io_06-Server-Side-APIs-Weather-Dashboard_.a505dd99.png": "/Dylan-Cole-Porfolio/static/media/deucedadorian.github.io_06-Server-Side-APIs-Weather-Dashboard_.a505dd99.png",
     "static/media/github.44eee0c4.png": "/Dylan-Cole-Porfolio/static/media/github.44eee0c4.png",
@@ -25,9 +25,9 @@
     "static/media/youtube.0b7c86fb.png": "/Dylan-Cole-Porfolio/static/media/youtube.0b7c86fb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c1fd89f4.js",
-    "static/js/2.8fc73956.chunk.js",
+    "static/js/runtime-main.e319927d.js",
+    "static/js/2.c168c27e.chunk.js",
     "static/css/main.f21be875.chunk.css",
-    "static/js/main.d7658e73.chunk.js"
+    "static/js/main.67afdf3b.chunk.js"
   ]
 }
