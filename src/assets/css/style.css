@@ -251,4 +251,10 @@ footer.main-section {
         width: 40px;
         margin: 10px;
     }
+
+    .form input, textarea{
+        display: block;
+        margin: 20px;
+        width: auto;
+    }
 }
