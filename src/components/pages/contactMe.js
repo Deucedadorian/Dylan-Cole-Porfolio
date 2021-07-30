@@ -20,6 +20,24 @@ function Form() {
   });
 
   const handleInputChange = (e) => {
+
+    if (e.target.name === 'email') {
+      const isValid = validateEmail(e.target.value);
+
+      if(!isValid) {
+          setErrorMessage('please enter a valid email');
+      } else {
+          setErrorMessage('');
+      }
+
+    } else {
+      if (e.target.value === '') {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage('');
+      } 
+    }
+
     // Getting the value and name of the input which triggered the change
     const { target } = e;
     const inputType = target.name;
@@ -40,13 +58,7 @@ function Form() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email)) {
-      setErrorMessage('Email is invalid');
-      // We want to exit out of this code block if something is wrong so that the user can correct it
-      return;
-    }
-
+    // Sends real email using emailjs
     send(
       'service_mf5t3vs',
       'template_e19nk3j',
@@ -59,7 +71,6 @@ function Form() {
       .catch((err) => {
         console.log('FAILED...', err);
       });
-    
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');
@@ -70,7 +81,6 @@ function Form() {
   return (
     <div>
       <form className="form default-tag-structure">
-
         <h2>Name:</h2>
         <input
           value={name}
@@ -95,13 +105,15 @@ function Form() {
           type="message"
           placeholder="Your message"
         />
-        <button type="submit" onClick={handleFormSubmit}>Submit</button>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+        <button type="submit" onClick={handleFormSubmit}>
+          Submit
+        </button>
       </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
     </div>
   );
 }
