@@ -34,8 +34,9 @@ export default function Resume() {
                 <li>VNC</li>
                 <li>VS code</li>
                 <li>Oracle VirtualBox</li>
-            
-            <button className="link-list form" id="dl-btn" href="https://docs.google.com/document/d/1OIVoojwJsLW0Y977_YJDl1uth4zm0cpItfo19QxTWNI/edit?usp=sharing" >Download Resume</button>
+            <a href="https://docs.google.com/document/d/1OIVoojwJsLW0Y977_YJDl1uth4zm0cpItfo19QxTWNI/edit?usp=sharing" target="_blank" rel="noreferrer">
+            <button className="link-list form" id="dl-btn" >Download Resume</button>
+            </a>
         </ul>
     )
 }
