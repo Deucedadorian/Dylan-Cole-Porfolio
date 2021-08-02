@@ -12,37 +12,22 @@ function Form() {
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState('');
   const [toSend, setToSend] = useState({
     from_name: '',
-    to_name: '',
     message: '',
     reply_to: '',
   });
 
   const handleInputChange = (e) => {
 
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-
-      if(!isValid) {
-          setErrorMessage('please enter a valid email');
-      } else {
-          setErrorMessage('');
-      }
-
-    } else {
-      if (e.target.value === '') {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage('');
-      } 
-    }
-
     // Getting the value and name of the input which triggered the change
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
     setToSend({ ...toSend, [e.target.name]: e.target.value });
+
+    setSuccessMessage('');
 
     // Based on the input type, we set the state of either email, name, and password
     if (inputType === 'email') {
@@ -52,65 +37,96 @@ function Form() {
     } else {
       setMessage(inputValue);
     }
+
+    if (!e.target.value) {
+      setErrorMessage(`${e.target.name} is required.`);
+    } else {
+      setErrorMessage('');
+    } 
+
+    if (e.target.value) {
+      if (e.target.name === 'email') {
+        const isValid = validateEmail(e.target.value);
+
+        if(!isValid) {
+            setErrorMessage('please enter a valid email');
+        } else {
+            setErrorMessage('');
+        }
+      }
+    } 
   };
 
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
+    const isValid = validateEmail(email);
 
-    // Sends real email using emailjs
-    send(
-      'service_mf5t3vs',
-      'template_e19nk3j',
-      toSend,
-      'user_D2qMBAy2i39C08h50DL4g'
-    )
+    if (name === '' || email === !isValid || message === '') {
+      setErrorMessage('please make sure the fields are filled in correctly.');
+      return
+    } else {
+      // Sends real email using emailjs
+      send(
+        'service_mf5t3vs',
+        'template_e19nk3j',
+        toSend,
+        'user_D2qMBAy2i39C08h50DL4g'
+      )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
       })
       .catch((err) => {
         console.log('FAILED...', err);
       });
+    }
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');
     setMessage('');
     setEmail('');
+
+    setSuccessMessage('Success!');
   };
 
   return (
     <div>
-      <form className="form default-tag-structure">
+      <form className='form default-tag-structure' >
         <h2>Name:</h2>
         <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Your name"
+          defaultValue={name}
+          name='name'
+          onBlur={handleInputChange}
+          type='text'
+          placeholder='Your name'
         />
         <h2>Email Address:</h2>
         <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="Your email address"
+          defaultValue={email}
+          name='email'
+          onBlur={handleInputChange}
+          type='email'
+          placeholder='Your email address'
         />
         <h2>message:</h2>
         <textarea
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="message"
-          placeholder="Your message"
+          defaultValue={message}
+          name='message'
+          onBlur={handleInputChange}
+          type='message'
+          placeholder='Your message'
         />
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p className='error-text'>{errorMessage}</p>
           </div>
         )}
-        <button type="submit" onClick={handleFormSubmit}>
+        {successMessage && (
+          <div>
+            <p className='success-text'>{successMessage}</p>
+          </div>
+        )}
+        <button type='submit' onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
