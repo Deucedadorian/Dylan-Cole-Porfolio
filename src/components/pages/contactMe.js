@@ -94,24 +94,27 @@ function Form() {
       <form className='form default-tag-structure' >
         <h2>Name:</h2>
         <input
-          defaultValue={name}
+          value={name}
           name='name'
+          onChange={handleInputChange}
           onBlur={handleInputChange}
           type='text'
           placeholder='Your name'
         />
         <h2>Email Address:</h2>
         <input
-          defaultValue={email}
+          value={email}
           name='email'
+          onChange={handleInputChange}
           onBlur={handleInputChange}
           type='email'
           placeholder='Your email address'
         />
         <h2>message:</h2>
         <textarea
-          defaultValue={message}
+          value={message}
           name='message'
+          onChange={handleInputChange}
           onBlur={handleInputChange}
           type='message'
           placeholder='Your message'
