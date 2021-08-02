@@ -12,7 +12,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       <h1>Dylan Cole</h1>
       <p>
           Developer in training with a passion for harnessing the power of
-          computers to innovative.
+          computers to innovate.
       </p>
     <ul className="nav nav-tabs link-list">
       <li className="nav-item">

@@ -35,7 +35,7 @@ export default function Resume() {
                 <li>VS code</li>
                 <li>Oracle VirtualBox</li>
             
-            <button className="link-list" id="dl-btn" href="https://docs.google.com/document/d/1OIVoojwJsLW0Y977_YJDl1uth4zm0cpItfo19QxTWNI/edit?usp=sharing" >Download Resume</button>
+            <button className="link-list form" id="dl-btn" href="https://docs.google.com/document/d/1OIVoojwJsLW0Y977_YJDl1uth4zm0cpItfo19QxTWNI/edit?usp=sharing" >Download Resume</button>
         </ul>
     )
 }

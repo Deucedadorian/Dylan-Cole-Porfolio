@@ -27,7 +27,7 @@ body {
     position: relative;
     flex-wrap: wrap;
     border-bottom: 1px solid var(--text-color);
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     justify-content: space-around;
     overflow: hidden;
 }
@@ -128,7 +128,7 @@ li.default-tag-structure {
     justify-content: space-evenly;
     align-items: center;
     width: 600px;
-    padding: 100px 0px 100px 0px;
+    padding: 50px 0px 50px 0px;
 }
 
 .icons {
@@ -199,7 +199,7 @@ footer.main-section {
 /* end hover behavior */
 
 #dl-btn {
-    margin-top: 40px;
+    margin: 10px;
     padding: 6px;
 }
 
@@ -214,6 +214,16 @@ footer.main-section {
 
 .resume-list h3 #first {
     margin-top: 0%;    
+}
+
+.form {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-size: 1.5rem;
+}
+
+#submit-btn {
+    margin: 10px;
 }
 
 /* Media Queries */
@@ -252,7 +262,7 @@ footer.main-section {
         margin: 10px;
     }
 
-    .form input, textarea{
+    form input, textarea{
         display: block;
         margin: 20px;
         width: auto;

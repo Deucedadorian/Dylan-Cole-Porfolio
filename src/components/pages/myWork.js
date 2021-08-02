@@ -13,36 +13,42 @@ const projects = [
         image: swosaat,
         name: 'SWOSAAT',
         github: 'https://github.com/Deucedadorian/Subscription-Tracker',
+        key: 1,
     },
     {
         deploy: 'https://unh-bootcamp-projects.github.io/project-1-group-a/',
         image: reciflixor,
         name: 'Reciflixor',
         github: 'https://github.com/UNH-Bootcamp-Projects/project-1-group-a',
+        key: 2,
     },
     {
         deploy: 'https://mysterious-lowlands-86271.herokuapp.com/login',
         image: blogSite,
         name: 'CMS-style blog site',
         github: 'https://github.com/Deucedadorian/14-Model-View-Controller-MVC-Tech-Blog',
+        key: 3,
     },
     {
         deploy: 'https://deucedadorian.github.io/06-Server-Side-APIs-Weather-Dashboard/',
         image: weatherApp,
         name: 'Weather Dashboard',
         github: 'https://github.com/Deucedadorian/06-Server-Side-APIs-Weather-Dashboard',
+        key: 4,
     },
     {
         deploy: 'https://deucedadorian.github.io/05-Third-Party-APIs-Work-Day-Scheduler/',
         image: scheduler,
         name: 'Work Day scheduler',
         github: 'https://github.com/Deucedadorian/05-Third-Party-APIs-Work-Day-Scheduler',
+        key: 5,
     },
     {
         deploy: 'https://sheltered-cliffs-13242.herokuapp.com/',
         image: NoteTaker,
         name: 'Code Quiz',
         github: 'https://github.com/Deucedadorian/11-Express.js-Note-Taker',
+        key: 6,
     },
 ];
 
@@ -54,7 +60,8 @@ export default function MyWork() {
             deploy={project.deploy}
             image={project.image}
             name={project.name} 
-            github={project.github} />
+            github={project.github}
+            key={project.key} />
             ))}
         </div>
     );

@@ -94,6 +94,7 @@ function Form() {
       <form className='form default-tag-structure' >
         <h2>Name:</h2>
         <input
+          className='form'
           value={name}
           name='name'
           onChange={handleInputChange}
@@ -103,6 +104,7 @@ function Form() {
         />
         <h2>Email Address:</h2>
         <input
+          className='form'
           value={email}
           name='email'
           onChange={handleInputChange}
@@ -112,6 +114,7 @@ function Form() {
         />
         <h2>message:</h2>
         <textarea
+          className='form'
           value={message}
           name='message'
           onChange={handleInputChange}
@@ -129,7 +132,7 @@ function Form() {
             <p className='success-text'>{successMessage}</p>
           </div>
         )}
-        <button type='submit' onClick={handleFormSubmit}>
+        <button type='submit' className='form' id='submit-btn' onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
