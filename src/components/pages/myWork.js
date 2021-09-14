@@ -13,6 +13,8 @@ const projects = [
         image: swosaat,
         name: 'SWOSAAT',
         github: 'https://github.com/Deucedadorian/Subscription-Tracker',
+        description: "",
+        technologies: "",
         key: 1,
     },
     {
@@ -20,13 +22,18 @@ const projects = [
         image: reciflixor,
         name: 'Reciflixor',
         github: 'https://github.com/UNH-Bootcamp-Projects/project-1-group-a',
+        description: "",
+        technologies: "",
         key: 2,
+
     },
     {
         deploy: 'https://mysterious-lowlands-86271.herokuapp.com/login',
         image: blogSite,
         name: 'CMS-style blog site',
         github: 'https://github.com/Deucedadorian/14-Model-View-Controller-MVC-Tech-Blog',
+        description: "",
+        technologies: "",
         key: 3,
     },
     {
@@ -34,6 +41,8 @@ const projects = [
         image: weatherApp,
         name: 'Weather Dashboard',
         github: 'https://github.com/Deucedadorian/06-Server-Side-APIs-Weather-Dashboard',
+        description: "",
+        technologies: "",
         key: 4,
     },
     {
@@ -41,6 +50,8 @@ const projects = [
         image: scheduler,
         name: 'Work Day scheduler',
         github: 'https://github.com/Deucedadorian/05-Third-Party-APIs-Work-Day-Scheduler',
+        description: "",
+        technologies: "",
         key: 5,
     },
     {
@@ -48,6 +59,8 @@ const projects = [
         image: NoteTaker,
         name: 'Code Quiz',
         github: 'https://github.com/Deucedadorian/11-Express.js-Note-Taker',
+        description: "",
+        technologies: "",
         key: 6,
     },
 ];
