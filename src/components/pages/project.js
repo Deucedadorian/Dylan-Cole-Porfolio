@@ -18,13 +18,12 @@ export default function Card(props) {
                     </a>
                 </div>
                 <p>{props.description}</p>
-                <p className="techs">{props.tech.map((tech) => {
-                    ++index;
-                    if (index < props.tech.length) {
-                        console.log(index);
+                <p className="techs">{props.tech.map((tech, i) => {
+                    ++i;
+                    if (i < props.tech.length) {
                         return `${tech} - `
                     } else {
-                        index = 0;
+                        i = 0;
                         return tech;
                     }
                 })}</p>
