@@ -119,6 +119,8 @@ export default function MyWork() {
             image={project.image}
             name={project.name} 
             github={project.github}
+            description={project.description}
+            tech={project.technologies}
             key={project.key} />
             ))}
         </div>
