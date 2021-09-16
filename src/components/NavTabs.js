@@ -10,10 +10,6 @@ function NavTabs({ currentPage, handlePageChange }) {
           <img className="headShot" src={headshot} alt="A headshot of the author." />
       </div>
       <h1>Dylan Cole</h1>
-      <p>
-          Developer in training with a passion for harnessing the power of
-          computers to innovate.
-      </p>
     <ul className="nav nav-tabs link-list">
       <li className="nav-item">
         <a

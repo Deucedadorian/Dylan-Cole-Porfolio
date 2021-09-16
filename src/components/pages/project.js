@@ -1,5 +1,7 @@
 import React from 'react';
 
+let index = 0;
+
 export default function Card(props) {
     return (
         <div className="project-card">
@@ -8,12 +10,24 @@ export default function Card(props) {
             </a>
             <section className="project-info">
                 <div className="title-section">
-                    <h2 className="project-title">{props.name}</h2>
+                    <a href={props.deploy} target="_blank" rel="noreferrer">
+                        <h2 className="project-title">{props.name}</h2>
+                    </a>
                     <a href={props.github} target="_blank" rel="noreferrer">
                         <h3>Github</h3>
                     </a>
                 </div>
                 <p>{props.description}</p>
+                <p className="techs">{props.tech.map((tech) => {
+                    ++index;
+                    if (index < props.tech.length) {
+                        console.log(index);
+                        return `${tech} - `
+                    } else {
+                        index = 0;
+                        return tech;
+                    }
+                })}</p>
             </section>
         </div>
       );
