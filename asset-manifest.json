@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Dylan-Cole-Porfolio/static/css/main.fa98a6cd.chunk.css",
-    "main.js": "/Dylan-Cole-Porfolio/static/js/main.83a4bb19.chunk.js",
-    "main.js.map": "/Dylan-Cole-Porfolio/static/js/main.83a4bb19.chunk.js.map",
+    "main.css": "/Dylan-Cole-Porfolio/static/css/main.37fa1516.chunk.css",
+    "main.js": "/Dylan-Cole-Porfolio/static/js/main.b9faeaa2.chunk.js",
+    "main.js.map": "/Dylan-Cole-Porfolio/static/js/main.b9faeaa2.chunk.js.map",
     "runtime-main.js": "/Dylan-Cole-Porfolio/static/js/runtime-main.e319927d.js",
     "runtime-main.js.map": "/Dylan-Cole-Porfolio/static/js/runtime-main.e319927d.js.map",
     "static/js/2.c168c27e.chunk.js": "/Dylan-Cole-Porfolio/static/js/2.c168c27e.chunk.js",
@@ -10,24 +10,25 @@
     "static/js/3.fb1c6c6e.chunk.js": "/Dylan-Cole-Porfolio/static/js/3.fb1c6c6e.chunk.js",
     "static/js/3.fb1c6c6e.chunk.js.map": "/Dylan-Cole-Porfolio/static/js/3.fb1c6c6e.chunk.js.map",
     "index.html": "/Dylan-Cole-Porfolio/index.html",
-    "static/css/main.fa98a6cd.chunk.css.map": "/Dylan-Cole-Porfolio/static/css/main.fa98a6cd.chunk.css.map",
+    "static/css/main.37fa1516.chunk.css.map": "/Dylan-Cole-Porfolio/static/css/main.37fa1516.chunk.css.map",
     "static/js/2.c168c27e.chunk.js.LICENSE.txt": "/Dylan-Cole-Porfolio/static/js/2.c168c27e.chunk.js.LICENSE.txt",
     "static/media/deucedadorian.github.io_05-Third-Party-APIs-Work-Day-Scheduler_.63dbd6ef.png": "/Dylan-Cole-Porfolio/static/media/deucedadorian.github.io_05-Third-Party-APIs-Work-Day-Scheduler_.63dbd6ef.png",
     "static/media/deucedadorian.github.io_06-Server-Side-APIs-Weather-Dashboard_.a505dd99.png": "/Dylan-Cole-Porfolio/static/media/deucedadorian.github.io_06-Server-Side-APIs-Weather-Dashboard_.a505dd99.png",
-    "static/media/github.44eee0c4.png": "/Dylan-Cole-Porfolio/static/media/github.44eee0c4.png",
+    "static/media/github.61154ffb.png": "/Dylan-Cole-Porfolio/static/media/github.61154ffb.png",
     "static/media/headshot.5bf5ec88.png": "/Dylan-Cole-Porfolio/static/media/headshot.5bf5ec88.png",
-    "static/media/message.5866460e.png": "/Dylan-Cole-Porfolio/static/media/message.5866460e.png",
+    "static/media/message.16fb64b2.png": "/Dylan-Cole-Porfolio/static/media/message.16fb64b2.png",
     "static/media/mysterious-lowlands-86271.herokuapp.com_login.dc6ee537.png": "/Dylan-Cole-Porfolio/static/media/mysterious-lowlands-86271.herokuapp.com_login.dc6ee537.png",
     "static/media/sheltered-cliffs-13242.herokuapp.com_.7ae1c08a.png": "/Dylan-Cole-Porfolio/static/media/sheltered-cliffs-13242.herokuapp.com_.7ae1c08a.png",
     "static/media/swosaat.7f2321b5.png": "/Dylan-Cole-Porfolio/static/media/swosaat.7f2321b5.png",
-    "static/media/twitter.67ad063d.png": "/Dylan-Cole-Porfolio/static/media/twitter.67ad063d.png",
+    "static/media/telephone.18c3ca6a.png": "/Dylan-Cole-Porfolio/static/media/telephone.18c3ca6a.png",
+    "static/media/twitter.983be5df.png": "/Dylan-Cole-Porfolio/static/media/twitter.983be5df.png",
     "static/media/unh-bootcamp-projects.github.io_project-1-group-a_.c46991e1.png": "/Dylan-Cole-Porfolio/static/media/unh-bootcamp-projects.github.io_project-1-group-a_.c46991e1.png",
-    "static/media/youtube.0b7c86fb.png": "/Dylan-Cole-Porfolio/static/media/youtube.0b7c86fb.png"
+    "static/media/youtube.1a239f31.png": "/Dylan-Cole-Porfolio/static/media/youtube.1a239f31.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e319927d.js",
     "static/js/2.c168c27e.chunk.js",
-    "static/css/main.fa98a6cd.chunk.css",
-    "static/js/main.83a4bb19.chunk.js"
+    "static/css/main.37fa1516.chunk.css",
+    "static/js/main.b9faeaa2.chunk.js"
   ]
 }
