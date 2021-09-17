@@ -225,6 +225,15 @@ footer.main-section {
     padding: 6px;
 }
 
+.resume-section {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.resume-section .resume-list {
+    justify-content: center;
+}
+
 .resume-list {
     font-size: 1.5rem;
 }
@@ -232,10 +241,15 @@ footer.main-section {
 .resume-list h3 {
     font-size: 2rem;
     margin-top: 40px;
+    margin-left: 0px;
 }
 
 .resume-list h3 #first {
     margin-top: 0%;    
+}
+
+.resume-list li {
+    text-align: center;
 }
 
 .form {
