@@ -38,7 +38,7 @@ body {
     padding-bottom: 30px;
 }
 
-.link-list li {
+.nav-item {
     border-radius: 3px;
     padding: 5px 10px 2px 10px;
     border-top: 2px solid var(--link-border-color);
@@ -48,14 +48,14 @@ body {
     margin: 15px;
     text-align: center;
     box-shadow: 1px 1px 5px #000;
+    list-style-type: none;
 }
 
-.link-list li a {
+.nav-item a {
     color: var(--link-border-color);
     padding: 0px;
     font-size: 1.6rem;
     font-weight: 400;
-    text-decoration: none;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 

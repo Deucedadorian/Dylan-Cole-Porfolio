@@ -10,7 +10,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           <img className="headShot" src={headshot} alt="A headshot of the author." />
       </div>
       <h1>Dylan Cole</h1>
-    <ul className="nav nav-tabs link-list">
+    <nav className="nav nav-tabs link-list">
       <li className="nav-item">
         <a
           href="#about"
@@ -52,7 +52,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
-    </ul>
+    </nav>
   </div>
   );
 }
