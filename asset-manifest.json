@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Dylan-Cole-Porfolio/static/css/main.af992fe1.chunk.css",
-    "main.js": "/Dylan-Cole-Porfolio/static/js/main.27f79016.chunk.js",
-    "main.js.map": "/Dylan-Cole-Porfolio/static/js/main.27f79016.chunk.js.map",
+    "main.css": "/Dylan-Cole-Porfolio/static/css/main.f49794e8.chunk.css",
+    "main.js": "/Dylan-Cole-Porfolio/static/js/main.1615f594.chunk.js",
+    "main.js.map": "/Dylan-Cole-Porfolio/static/js/main.1615f594.chunk.js.map",
     "runtime-main.js": "/Dylan-Cole-Porfolio/static/js/runtime-main.e319927d.js",
     "runtime-main.js.map": "/Dylan-Cole-Porfolio/static/js/runtime-main.e319927d.js.map",
-    "static/js/2.9b483ef6.chunk.js": "/Dylan-Cole-Porfolio/static/js/2.9b483ef6.chunk.js",
-    "static/js/2.9b483ef6.chunk.js.map": "/Dylan-Cole-Porfolio/static/js/2.9b483ef6.chunk.js.map",
+    "static/js/2.c168c27e.chunk.js": "/Dylan-Cole-Porfolio/static/js/2.c168c27e.chunk.js",
+    "static/js/2.c168c27e.chunk.js.map": "/Dylan-Cole-Porfolio/static/js/2.c168c27e.chunk.js.map",
     "static/js/3.fb1c6c6e.chunk.js": "/Dylan-Cole-Porfolio/static/js/3.fb1c6c6e.chunk.js",
     "static/js/3.fb1c6c6e.chunk.js.map": "/Dylan-Cole-Porfolio/static/js/3.fb1c6c6e.chunk.js.map",
     "index.html": "/Dylan-Cole-Porfolio/index.html",
-    "static/css/main.af992fe1.chunk.css.map": "/Dylan-Cole-Porfolio/static/css/main.af992fe1.chunk.css.map",
-    "static/js/2.9b483ef6.chunk.js.LICENSE.txt": "/Dylan-Cole-Porfolio/static/js/2.9b483ef6.chunk.js.LICENSE.txt",
+    "static/css/main.f49794e8.chunk.css.map": "/Dylan-Cole-Porfolio/static/css/main.f49794e8.chunk.css.map",
+    "static/js/2.c168c27e.chunk.js.LICENSE.txt": "/Dylan-Cole-Porfolio/static/js/2.c168c27e.chunk.js.LICENSE.txt",
     "static/media/deucedadorian.github.io_05-Third-Party-APIs-Work-Day-Scheduler_.63dbd6ef.png": "/Dylan-Cole-Porfolio/static/media/deucedadorian.github.io_05-Third-Party-APIs-Work-Day-Scheduler_.63dbd6ef.png",
     "static/media/deucedadorian.github.io_06-Server-Side-APIs-Weather-Dashboard_.a505dd99.png": "/Dylan-Cole-Porfolio/static/media/deucedadorian.github.io_06-Server-Side-APIs-Weather-Dashboard_.a505dd99.png",
     "static/media/github.61154ffb.png": "/Dylan-Cole-Porfolio/static/media/github.61154ffb.png",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e319927d.js",
-    "static/js/2.9b483ef6.chunk.js",
-    "static/css/main.af992fe1.chunk.css",
-    "static/js/main.27f79016.chunk.js"
+    "static/js/2.c168c27e.chunk.js",
+    "static/css/main.f49794e8.chunk.css",
+    "static/js/main.1615f594.chunk.js"
   ]
 }
