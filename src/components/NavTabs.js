@@ -1,16 +1,13 @@
 import React from 'react';
-import headshot from '../assets/images/headshot.png';
+
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="default-tag-structure">
-      <div>
-          <img className="headShot" src={headshot} alt="A headshot of the author." />
-      </div>
-      <h1>Dylan Cole</h1>
-    <nav className="nav nav-tabs link-list">
+    <div className="default-tag-structure" id="nav-section">
+      <h1 id="title">Dylan Cole Portfolio</h1>
+      <nav className="nav nav-tabs link-list">
         <a
           href="#about" onClick={() => handlePageChange('about')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -41,8 +38,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
-    </nav>
-  </div>
+      </nav>
+    </div>
   );
 }
 

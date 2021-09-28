@@ -1,10 +1,14 @@
 import React from 'react';
+import headshot from '../../assets/images/headshot.png';
 
 export default function AboutMe() {
     return (
         <div>
             <section id="about" className="default-tag-structure">
-                <h1>About Me</h1>
+                <div>
+                    <img className="headShot" src={headshot} alt="A headshot of the author." />
+                </div>
+                <h1>Dylan Cole</h1>
                 <p className="article-text">
                 Developer with a passion for leveraging powerful technologies to change the world. 
                 Recently earned a certificate in Full Stack Development from the University of New Hampshire. 
