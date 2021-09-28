@@ -112,7 +112,7 @@ const projects = [
 
 export default function MyWork() {
     return (
-        <div className='default-tag-structure'>
+        <div className='default-tag-structure' id='my-work'>
             {projects.map((project) => (
             <Project 
             deploy={project.deploy}

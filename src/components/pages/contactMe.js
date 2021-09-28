@@ -91,7 +91,7 @@ function Form() {
 
   return (
     <div>
-      <form className='form default-tag-structure' >
+      <form className='form default-tag-structure' id='contact'>
         <h2>Name:</h2>
         <input
           className='form'

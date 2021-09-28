@@ -4,7 +4,7 @@ import '../../assets/css/contact.css';
 
 export default function Resume() {
     return (
-        <section className="resume-section">
+        <div className="resume-section" id="resume">
             <a href="https://docs.google.com/document/d/1OIVoojwJsLW0Y977_YJDl1uth4zm0cpItfo19QxTWNI/edit?usp=sharing" target="_blank" rel="noreferrer">
                 <button className="link-list form" id="dl-btn" >Download Resume</button>
             </a>  
@@ -44,6 +44,6 @@ export default function Resume() {
                 <li>VS code</li>
                 <li>Oracle VirtualBox</li>
             </ul>
-        </section>
+        </div>
     )
 }

@@ -3,7 +3,7 @@ import React from 'react';
 export default function AboutMe() {
     return (
         <div>
-            <section id="about-me" className="default-tag-structure">
+            <section id="about" className="default-tag-structure">
                 <h1>About Me</h1>
                 <p className="article-text">
                 Developer with a passion for leveraging powerful technologies to change the world. 
