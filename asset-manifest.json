@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Dylan-Cole-Porfolio/static/css/main.f49794e8.chunk.css",
-    "main.js": "/Dylan-Cole-Porfolio/static/js/main.1615f594.chunk.js",
-    "main.js.map": "/Dylan-Cole-Porfolio/static/js/main.1615f594.chunk.js.map",
+    "main.js": "/Dylan-Cole-Porfolio/static/js/main.c5a403c9.chunk.js",
+    "main.js.map": "/Dylan-Cole-Porfolio/static/js/main.c5a403c9.chunk.js.map",
     "runtime-main.js": "/Dylan-Cole-Porfolio/static/js/runtime-main.e319927d.js",
     "runtime-main.js.map": "/Dylan-Cole-Porfolio/static/js/runtime-main.e319927d.js.map",
     "static/js/2.c168c27e.chunk.js": "/Dylan-Cole-Porfolio/static/js/2.c168c27e.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.e319927d.js",
     "static/js/2.c168c27e.chunk.js",
     "static/css/main.f49794e8.chunk.css",
-    "static/js/main.1615f594.chunk.js"
+    "static/js/main.c5a403c9.chunk.js"
   ]
 }
